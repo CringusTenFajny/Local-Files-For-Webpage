@@ -92,7 +92,7 @@ footer {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: rainbow_animation 10s ease-in-out infinite;
+    animation: rainbow_animation 5s ease-in-out infinite;
     background-size: 400% 100%;
 }
 
@@ -156,10 +156,6 @@ footer {
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-}
-
-* {
-    box-sizing:border-box
 }
 
 .slides-container {
